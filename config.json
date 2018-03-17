@@ -1,0 +1,47 @@
+{
+    "token": "",
+    "commandPrefix": "!",
+    "commands": {
+        "price": {
+            "base": {
+                "command": "price",
+                "description": "Get the current price from tradeogre"
+            },
+            "tradeogreTicker": "BTC-WAE",
+            "showBtc": true,
+            "showUsd": true,
+            "showUgx": true
+        },
+        "volume": {
+            "base": {
+                "command": "volume",
+                "description": "Get the current volume from tradeogre"
+            }
+        },
+        "network": {
+            "base": {
+                "command": "network",
+                "description": "Get the current weycoin network information"
+            },
+            "url": "http://blockchain.weycoin.org"
+        },
+        "meme": {
+            "base": {
+                "command": "meme",
+                "description": "Get a random meme fom 9gag"
+            }
+        },
+        "wallet": {
+            "base": {
+                "command": "wallet",
+                "description": "Not yet implemented - \"wallet add 'key'\" to store public key for user, \"wallet\" to display key with QR code"
+            }
+        },
+        "help": {
+            "base": {
+                "command": "help",
+                "description": "Get help information for WeyBot"
+            }
+        }
+    }
+}
